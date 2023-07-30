@@ -1,4 +1,4 @@
 # practice
 
-learning how to do stuff \\
+learning how to do stuff \
 C++
