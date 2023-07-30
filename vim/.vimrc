@@ -1,4 +1,3 @@
-```
 set clipboard=unnamed
 
 set backspace=indent,eol,start                                                                                                           
@@ -29,4 +28,3 @@ set autoindent
  
 let &t_SI = "\e[2 q"
 let &t_EI = "\e[2 q"
-```
