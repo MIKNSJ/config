@@ -1,0 +1,27 @@
+{
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "C_Cpp.updateChannel": "Insiders",
+    "code-runner.runInTerminal": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.rulers": [
+    80
+    ],
+    "editor.fontLigatures": false,
+    "editor.inlayHints.enabled": "off",
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground3" : "#15ff00"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments" : "#BBBBBB"
+    },
+    "window.zoomLevel": -1
+}
