@@ -1,0 +1,22 @@
+[Theme]: Andromeda                         EliverLara.andromeda
+[Plug-In]: Code Runner                     formulahendry.code-runner
+[Language]: LaTeX Workshop                 James-Yu.latex-workshop
+[Theme]: Wild West                         MaheshGaddhe00.wildwest
+[Language]: Python                         ms-python.python
+[Language]: Pylance                        ms-python.vscode-pylance
+[Plug-In]: Jupyter                         ms-toolsai.jupyter
+[Plug-In]: Jupyter Keymap                  ms-toolsai.jupyter-keymap
+[Plug-In]: Jupyter Renderers               ms-toolsai.jupyter-renderers
+[Plug-In]: Jupyter Cell Tags               ms-toolsai.vscode-jupyter-cell-tags
+[Plug-In]: Jupyter Slideshow               ms-toolsai.vscode-jupyter-slideshow
+[Plug-In]: WSL                             ms-vscode-remote.remote-wsl
+[Language]: C/C++                          ms-vscode.cpptools
+[Language]: Language Support for Java(TM)  redhat.java
+[Plug-In]: IntelliCode Api Usage Examples  VisualStudioExptTeam.intellicode-api-usage-examples
+[Plug-In]: IntelliCode                     VisualStudioExptTeam.vscodeintellicode
+[Plug-In]: Debugger for Java               vscjava.vscode-java-debug
+[Plug-In]: Project Manager for Java        vscjava.vscode-java-dependency
+[Plug-in]: Extension Pack for Java         vscjava.vscode-java-pack
+[Plug-In]: Tester Runner for Java          vscjava.vscode-java-test
+[Plug-In]: Maven for Java                  vscjava.vscode-maven
+[Theme]: One Dark Pro                      zhuangtongfa.material-theme
