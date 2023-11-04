@@ -8,7 +8,9 @@ highlight LineNr guifg=red
 highlight CursorLineNr guifg=green
 highlight Cursor guibg=green
 highlight NonText guifg=#303030
-set guifont=Cascadia_Code:h16
+
+" old version was set guifont=Cascadia_Code:h16
+set guifont=FixedSys:h16
 
 syntax on
 set number
@@ -19,7 +21,7 @@ set mouse=a
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-set tabstop =4
+set tabstop=4
 set cursorline
 set cursorcolumn
 set colorcolumn=80
