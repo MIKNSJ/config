@@ -11,7 +11,7 @@ Install clangd (c/cpp suggestions) by LLVM (separate installation and automatica
 
 With the plug-in manager:
 
-Install coc.nvim \
+Install coc.nvim
 
 
 With the plug-in manager:
