@@ -2,15 +2,14 @@ set clipboard=unnamed
 
 set backspace=indent,eol,start                                                                                                           
 
-" colorscheme evening
+colorscheme evening
 highlight Normal guibg=#303030 guifg=white
 highlight LineNr guifg=red
 highlight CursorLineNr guifg=green
 highlight Cursor guibg=green
 highlight NonText guifg=#303030
 
-"set guifont=Cascadia_Code:h16
-set guifont=FixedSys:h16
+set guifont=Cascadia_Code:h16
 
 syntax on
 set number
