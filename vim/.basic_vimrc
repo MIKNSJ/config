@@ -9,7 +9,7 @@ highlight CursorLineNr guifg=green
 highlight Cursor guibg=green
 highlight NonText guifg=#303030
 
-" old version was set guifont=Cascadia_Code:h16
+"set guifont=Cascadia_Code:h16
 set guifont=FixedSys:h16
 
 syntax on
