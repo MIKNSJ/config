@@ -83,7 +83,7 @@ In command mode, execute the command ```:CocInstall coc-clangd```.
 
 If you installed clangd, feel free to ignore any PATH warnings.
 
-*Note: You may encounter an addition command regarding ```:CocCommand clangd.install``` based on a different type of installation which may be exceuted if coc.nvim does not work properly.*
+*Note: You may encounter an additional command regarding ```:CocCommand clangd.install``` based on a different type of installation which may be exceuted if coc.nvim does not work properly.*
 
 Now, you should see prompt pop-ups as you type something similar to C/C++ syntax.
 
