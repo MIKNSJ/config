@@ -67,6 +67,8 @@ nnoremap <c-b> <Esc>:NERDTreeToggle<cr>
 
 More information regarding each plug-in can be found from searching the exact name of the plug-in.
 
+Now, you should see the style commands in action the next time a file is opened in any interface of Vim.
+
 ***
 
 ## Setup coc.nvim for C/C++ support
