@@ -87,7 +87,7 @@ Install Java or Java SE and set the Windows PATH manually or through installatio
 
 Open a Java file through any Vim interface.
 
-User the command ```CocInstall coc-java```.
+User the command ```:CocInstall coc-java```.
 
 Feel free to ignore any PATH warnings.
 
