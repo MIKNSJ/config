@@ -30,6 +30,10 @@ The plug-in command is ```Plug 'neoclide/coc.nvim', {'branch': 'release'}```
 
 Save and exit the .vimrc file. Re-enter the file and execute ```:PlugInstall``` in command mode to install any plug-ins listed.
 
+*Note: You should have a new folder ```vimfiles``` that stores plug-ins in the same directory as ```.vim``` and ```.vimrc```.*
+
+*Note: Your ```coc``` file may be located in ```.../AppData/Local/coc```.*
+
 *Note: Any plug-in regarding themes may have to use additional style commands and/or including the command ```colorscheme {name}``` the following line after ```call plug#end()```.*
 
 *Note: refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion. More details at [fix](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion).*
