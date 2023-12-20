@@ -20,6 +20,7 @@ Install the remaining plug-ins for VIM.
 
 More information regarding each plug-in can be found from the exact name of the plug-in.
 
+
 Steps to configurating the latest .vimrc file listed for Python
 
 Install jedi on Windows Powershell using the command ```pip3 install jedi```.
@@ -31,3 +32,10 @@ Other commands that I used but I do not know if it is necessary
 Install the python autocomplete tool ```:CocInstall coc-pyright``` supported for Version 3.XX over ```coc-python```.
 
 Install pynvim ```pip install pynvim``` (by ChatGPT)
+
+
+Steps to configurating the latest .vimrc file listed for Java
+
+Install Java or Java SE and set the Windows PATH
+
+User the command ```CocInstall coc-java```.
