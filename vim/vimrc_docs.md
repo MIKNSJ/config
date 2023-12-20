@@ -2,14 +2,14 @@
 
 *The following configuration below is established through a Windows OS Machine. Some stuff may not work properly on a different OS*.
 
-*Note: Not all steps may be necessary from each section in order to enable autocomplete.*
+*Note: Not all steps may be necessary from each section in order to enable language autocomplete.*
 
 
 ## Setting up .vimrc for basic QOL
 
 Find valid style commands and add them to each line.
 
-*See the ```config/vim/basic_vimrc``` for an list of basic style commands.*
+*See the ```config/vim/basic_vimrc``` for an list of basic style commands.* \
 
 
 ## Setting up .vimrc for plug-ins
