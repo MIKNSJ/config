@@ -45,7 +45,23 @@ Save and exit the .vimrc file. Re-enter the file and execute ```:PlugInstall``` 
 
 *Note: Any plug-in regarding themes may have to use additional style commands and/or including the command ```colorscheme {name}``` the following line after ```call plug#end()```.*
 
-*Note: refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion. More details at [fix](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion).*
+*Note: Refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion in coc.nvim. More details at [fix](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion). The following code is provided below.*
+
+```
+" use <tab> to trigger completion and navigate to the next complete item
+ function! CheckBackspace() abort
+     let col = col('.') - 1
+     return !col || getline('.')[col - 1]  =~# '\s'
+ endfunction
+
+inoremap <silent><expr> <Tab>
+    \ coc#pum#visible() ? coc#pum#next(1) :
+    \ CheckBackspace() ? "\<Tab>" :
+    \ coc#refresh()
+
+inoremap <c-b> <Esc>:NERDTreeToggle<cr>
+nnoremap <c-b> <Esc>:NERDTreeToggle<cr>
+```
 
 *Note: List of [colorschemes](https://vimcolorschemes.com/) and [additional cs](https://github.com/rafi/awesome-vim-colorschemes).*
 
