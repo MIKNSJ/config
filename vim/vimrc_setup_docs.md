@@ -18,7 +18,9 @@ Find valid style commands and add them to each line.
 
 Install Vim. It is optional to use gVim, Neovim, or any other custom Vim interface.
 
-Install vim_plug through Windows Powershell with the command ```iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force```
+Install vim_plug through Windows Powershell with the command:
+
+```iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force```
 
 In your .vimrc file, include the following: 
 ```
