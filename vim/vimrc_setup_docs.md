@@ -22,13 +22,11 @@ Install vim_plug through Windows Powershell with the command ```iwr -useb https:
 
 In your .vimrc file, include the following: 
 ```
-... whitespace or style commands
 call plug#begin()
 ...
-Plug {name} (plug-in installation commands goes in here)
+Plug '{user/Github directory}' (plug-in installation commands goes in here)
 ...
 call plug#end()
-... white space or style commands
 ```
 
 For example, we will try to install coc.nvim.
