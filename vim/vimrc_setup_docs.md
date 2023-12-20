@@ -20,7 +20,16 @@ Install Vim. It is optional to use gVim, Neovim, or any other custom Vim interfa
 
 Install vim_plug through Windows Powershell with the command ```iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force```
 
-In your .vimrc file, include ```call plug#begin()``` and ```call plug#end()``` on separate lines. Type any plug-in commands between the two ```call``` commands.
+In your .vimrc file, include the following: 
+```
+... whitespace or style commands
+call plug#begin()
+...
+Plug {name} (plug-in installation commands goes in here)
+...
+call plug#end()
+... white space or style commands
+```
 
 For example, we will try to install coc.nvim.
 
