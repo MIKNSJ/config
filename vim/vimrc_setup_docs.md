@@ -1,4 +1,4 @@
-# .vimrc Documentation
+# .vimrc Set-up Documentation
 
 *The following configuration below is established through a Windows OS Machine. Some stuff may not work properly on a different OS*.
 
@@ -24,13 +24,15 @@ In your .vimrc file, include ```call plug#begin()``` and ```call plug#end()``` o
 
 For example, we will try to install coc.nvim.
 
-*This is required for the upcoming sections below.*
+*This is required for the upcoming sections below regarding language autocomplete.*
 
 The plug-in command is ```Plug 'neoclide/coc.nvim', {'branch': 'release'}```
 
 Save and exit the .vimrc file. Re-enter the file and execute ```:PlugInstall``` in command mode to install any plug-ins listed.
 
-*Note: Any plug-in regarding themes may have to use additional style commands and/or including the command ```colorscheme {name}``` the following line after ```call plug#end()```.
+*Note: Any plug-in regarding themes may have to use additional style commands and/or including the command ```colorscheme {name}``` the following line after ```call plug#end()```.*
+
+*Note: refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion. More details at [fix](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion).*
 
 More information regarding each plug-in can be found from searching the exact name of the plug-in.
 
@@ -89,18 +91,18 @@ Now, you should see prompt pop-ups as you type something similar to Java syntax.
 
 ***
 
-## Setup coc.nwim for HTML
+## Setup coc.nvim for HTML
 
 *TBD*
 
 ***
 
-## Setup coc.nwim for CSS
+## Setup coc.nvim for CSS
 
 *TBD*
 
 ***
 
-## Setup coc.nwim for JavaScript
+## Setup coc.nvim for JavaScript
 
 *TBD*
