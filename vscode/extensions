@@ -10,8 +10,12 @@
 [Plug-In]: Jupyter Cell Tags               ms-toolsai.vscode-jupyter-cell-tags
 [Plug-In]: Jupyter Slideshow               ms-toolsai.vscode-jupyter-slideshow
 [Plug-In]: WSL                             ms-vscode-remote.remote-wsl
-[Language]: C/C++                          ms-vscode.cpptools
+[Language]: CMake Tools                    ms-vscode.cmake-tools@1.16.32
+[Language]: C/C++ Tools                    ms-vscode.cpptools
+[Language]: C/C++ Extension Pack           ms-vscode.cpptools-extension-pack@1.3.0
+[Language]: C/C++ Themes                   ms-vscode.cpptools-themes@2.0.0
 [Language]: Language Support for Java(TM)  redhat.java
+[Language]: CMake                          twxs.cmake@0.0.17
 [Plug-In]: IntelliCode Api Usage Examples  VisualStudioExptTeam.intellicode-api-usage-examples
 [Plug-In]: IntelliCode                     VisualStudioExptTeam.vscodeintellicode
 [Plug-In]: Debugger for Java               vscjava.vscode-java-debug
