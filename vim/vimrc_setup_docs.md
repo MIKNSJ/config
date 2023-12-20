@@ -89,6 +89,8 @@ Open a Java file through any Vim interface.
 
 User the command ```CocInstall coc-java```.
 
+Feel free to ignore any PATH warnings.
+
 Now, you should see prompt pop-ups as you type something similar to Java syntax.
 
 ***
