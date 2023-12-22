@@ -98,7 +98,7 @@ Install MingGW for C/C++ Language.
 
 Install clangd (c/cpp suggestions) by LLVM (separate installation and automatically connects to Windows User Path).
 
-*Note: This may prevent an issue regarding the ```:CocInstall``` and ```:CocCommand``` commands resulting in a potential pathing issue of clangd.*
+*Note: This may prevent an issue regarding the ```:CocInstall``` and ```:CocCommand``` commands resulting in a potential pathing issue of clangd.* [(Details)](https://github.com/clangd/coc-clangd/issues/61)
 
 Open a C or C++ file through any Vim interface.
 
