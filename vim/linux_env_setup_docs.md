@@ -1,4 +1,4 @@
-# Linux Enviroment Setup Documentation
+# Linux Environment Setup Documentation
 
 We want to setup a Linux Environment for doing basic tasks.
 
