@@ -4,7 +4,7 @@
 
 *IMPORTANT NOTE: We will assume that programming compliers/languages have been pre-installed before continuing.*
 
-*Note: WSL 1/2: Ubuntu will work.*.
+*Note: WSL 1/2: Ubuntu will work.*
 
 *Note: Not all steps may be necessary from each section in order to enable language autocomplete.*
 
