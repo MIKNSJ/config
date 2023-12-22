@@ -30,7 +30,7 @@ In order to install Node.js on to your system, execute the following commands be
 
 ## Setting up .vimrc for plug-ins
 
-Install Vim. It is optional to use gVim, Neovim, or any other custom Vim interface.
+Use Vim. It is optional to use Neovim or any other custom Vim interface.
 
 Install vim_plug through Linux with the command:
 
