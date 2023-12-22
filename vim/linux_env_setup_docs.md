@@ -6,7 +6,7 @@ We want to setup a Linux Environment for doing basic programming.
 
 ## Configure a Linux OS
 
-For this documentation, we will consider using WSL.
+For this documentation, we will consider using WSL. Otherwise, you may skip this step if you already have it pre-installed.
 
 Install WSL by executing the command ```wsl --install``` in Command Prompt or Windows Powershell.
 
@@ -16,7 +16,7 @@ If using WSL, we will also download Ubuntu and Windows Terminal from the Microso
 
 Configure Windows Terminal to include a new profile to open Ubuntu.
 
-Setup Ubtuntu by setting a username and password.
+Setup Ubuntu by setting a username and password.
 
 ***
 
