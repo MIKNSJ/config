@@ -10,6 +10,7 @@ Plug 'vim-test/vim-test'
 
 call plug#end()
 
+filetype on
 syntax on
 colorscheme onedark
 set showmatch matchtime=20
