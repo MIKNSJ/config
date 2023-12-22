@@ -2,7 +2,7 @@
 
 *The following configuration below is established through a Linux Machine. Some stuff may not work properly on a different OS*.
 
-*IMPORTANT NOTE: We will assume that programming compliers/languages have been pre-installed before continuing.
+*IMPORTANT NOTE: We will assume that programming compliers/languages have been pre-installed before continuing.*
 
 *Note: WSL 1/2: Ubuntu will work.*.
 
