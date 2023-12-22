@@ -41,6 +41,11 @@ nnoremap <C-Z> :set relativenumber!<CR>
 set ruler
 set mouse=a
 
+set hlsearch     " Highlight search results
+set incsearch    " Incremental search
+set ignorecase   " Case-insensitive search
+set smartcase    " Case-sensitive if pattern has uppercase characters
+
 set expandtab
 set shiftwidth=4
 set softtabstop=4
