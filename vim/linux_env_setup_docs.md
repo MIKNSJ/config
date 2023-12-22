@@ -49,7 +49,7 @@ If Windows does not recognize the command (not found) above, use:  ```wsl --set-
 
 *Note: The command will not execute, if you get prompted to install optional components for WSL through CMD/PowerShell and/or from a Windows notification.*
 
-If promoted, install the optional components for WSL in either way and then perform a reboot/restart. After rebooting/restarting, rerun the same command that worked from above.
+If promoted, install the optional components for WSL in either way and then perform a reboot/restart. After rebooting/restarting, execute the same command that worked from above. This process may take a few minutes.
 
 Now, if you execute ```wsl -l -v```, then the versions for WSL and Ubuntu should match.
 
