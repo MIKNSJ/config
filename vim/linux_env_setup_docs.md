@@ -1,6 +1,6 @@
 # Linux Enviroment Setup Documentation
 
-We want to setup a Linux Environment for doing basic programming.
+We want to setup a Linux Environment for doing basic tasks.
 
 ***
 
