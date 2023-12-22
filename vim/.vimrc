@@ -12,6 +12,7 @@ call plug#end()
 
 syntax on
 colorscheme onedark
+set showmatch matchtime=20
 
 " use <tab> to trigger completion and navigate to the next complete item
  function! CheckBackspace() abort
