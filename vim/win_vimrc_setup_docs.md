@@ -1,4 +1,4 @@
-# .vimrc Set-up Documentation
+# Windows .vimrc Set-up Documentation
 
 *The following configuration below is established through a Windows OS Machine. Some stuff may not work properly on a different OS*.
 
