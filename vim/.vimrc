@@ -25,8 +25,8 @@ inoremap <silent><expr> <Tab>
     \ CheckBackspace() ? "\<Tab>" :
     \ coc#refresh()
 
-inoremap <c-b> <Esc>:NERDTreeToggle<cr>
-nnoremap <c-b> <Esc>:NERDTreeToggle<cr>
+inoremap <c-m> <Esc>:NERDTreeToggle<cr>
+nnoremap <c-m> <Esc>:NERDTreeToggle<cr>
 
 " let g:airline_theme='onedark'
 
@@ -37,6 +37,7 @@ set guifont=Cascadia\ Code:h14
 
 set number
 " set relativenumber
+nnoremap <C-Z> :set relativenumber!<CR>
 set ruler
 set mouse=a
 
