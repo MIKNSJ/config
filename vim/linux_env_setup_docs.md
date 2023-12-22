@@ -39,7 +39,7 @@ sudo apt full-upgrade  # Installs updates; may also remove some packages, if nee
 sudo apt autoremove    # Removes any old packages that are no longer needed [OPTIONAL]
 ```
 
-Check if the current Ubuntu and WSL versions match by executing ```wsl -l -v```.
+Check if the current Ubuntu and WSL versions match by executing ```wsl -l -v``` or ```wsl -list -verbose```.
 
 *Note: Versions only have to match to its nearest integer.*
 
@@ -51,7 +51,7 @@ If Windows does not recognize the command (not found) above, use:  ```wsl --set-
 
 If promoted, install the optional components for WSL in either way and then perform a reboot/restart. After rebooting/restarting, execute the same command that worked from above. This process may take a few minutes.
 
-Now, if you execute ```wsl -l -v```, then the versions for WSL and Ubuntu should match.
+Now, if you execute ```wsl -l -v``` again, then the versions for WSL and Ubuntu should match.
 
 ***
 
