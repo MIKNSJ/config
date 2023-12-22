@@ -25,8 +25,8 @@ inoremap <silent><expr> <Tab>
     \ CheckBackspace() ? "\<Tab>" :
     \ coc#refresh()
 
-inoremap <c-m> <Esc>:NERDTreeToggle<cr>
-nnoremap <c-m> <Esc>:NERDTreeToggle<cr>
+inoremap <C-X> <Esc>:NERDTreeToggle<cr>
+nnoremap <C-X> <Esc>:NERDTreeToggle<cr>
 
 " let g:airline_theme='onedark'
 
