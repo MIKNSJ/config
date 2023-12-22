@@ -45,7 +45,7 @@ Save and exit the .vimrc file. Re-enter the file and execute ```:PlugInstall``` 
 
 *Note: Any plug-in regarding themes may have to use additional style commands and/or including the command ```colorscheme {name}``` the following line after ```call plug#end()```.*
 
-*Note: Refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion in coc.nvim. More details at [fix](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion). The following code is provided below from the given source.*
+*Note: Refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion in coc.nvim. [(Details)](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion). The following code is provided below from the given source.*
 
 ```
 " use <tab> to trigger completion and navigate to the next complete item
@@ -63,11 +63,32 @@ inoremap <c-b> <Esc>:NERDTreeToggle<cr>
 nnoremap <c-b> <Esc>:NERDTreeToggle<cr>
 ```
 
+*Note: Check the ```coc-settings.json``` section and add ```"suggest.noselect": true``` to fix tab completion initially defaulting to the second entry [(Details)](https://github.com/neoclide/coc.nvim/issues/4283).*
+
 *Note: List of [colorschemes](https://vimcolorschemes.com/) and [additional cs](https://github.com/rafi/awesome-vim-colorschemes).*
 
 More information regarding each plug-in can be found from searching the exact name of the plug-in.
 
 Now, you should see the style commands in action the next time a file is opened in any interface of Vim.
+
+***
+
+## Setup coc-settings.json for coc.nvim customization
+
+Find your ```~/vimfiles/coc-settings.json``` file or open a new file in any interface of Vim and execute the command: ```:CocConfig```.
+
+You may edit your coc-settings.json using any text editor and use the basic format below.
+
+```json
+" coc-settings
+{
+
+  "{attribute: name of command}":{toggle: true/false}
+
+}
+```
+
+More details about each command can be found by executing the command: ```:h coc-config``` in any interface of Vim.
 
 ***
 
