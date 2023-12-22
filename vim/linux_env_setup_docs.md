@@ -22,6 +22,8 @@ Setup Ubuntu by setting a username and password.
 
 # [OPTIONAL]: Updating WSL and Ubuntu
 
+If you have currently installed WSL and Ubuntu, then you may want to consider updating them to the latest version.
+
 Check the current WSL version by executing ```wsl --version``` in CMD or PowerShell.
 
 Check the current Ubuntu version by executing ```lsb_release -a``` in Ubuntu.
