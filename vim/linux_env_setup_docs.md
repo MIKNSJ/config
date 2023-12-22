@@ -43,7 +43,7 @@ Check if the current Ubuntu and WSL versions match by executing ```wsl -l -v```.
 
 *Note: Versions only have to match to its nearest integer.*
 
-If not, execute the following command in CMD or PowerShell: ```wsl --set-version Ubuntu-{your version goes here} 2```.
+If not, execute the following command in CMD or PowerShell: ```wsl --set-version Ubuntu-{your version number: 2X.XX goes here} 2```.
 
 If Windows does not recognize the command (not found) above, use:  ```wsl --set-version Ubuntu 2``` instead.
 
