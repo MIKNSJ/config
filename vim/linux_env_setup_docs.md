@@ -57,21 +57,29 @@ Now, if you execute ```wsl -l -v```, then the versions for WSL and Ubuntu should
 
 ## Install Valgrind and GDB
 
-In order to install Valgrind and GDB on to your system, exceute the following commands:
+In order to install Valgrind and GDB on to your system, execute the following commands:
 
 valgrind: ```sudo apt install valgrind```
 
 gdb: ```sudo apt install gdb```
 
+Now, you should have valgrind and gdb installed in your system.
+
+You can check by executing ```valgrind``` and/or ```gdb``` in Ubuntu.
+
 ***
 
 ## Install Node.js
 
-In order to install Node.js on to your system, exceute the following commands:
+In order to install Node.js on to your system, execute the following commands:
 
 ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
 
 ```nvm install node```
+
+Now, you should have Node.js installed in your system.
+
+You can check by executing ```node --version``` in Ubuntu.
 
 ***
 
