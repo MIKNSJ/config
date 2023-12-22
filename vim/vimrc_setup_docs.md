@@ -45,7 +45,7 @@ Save and exit the .vimrc file. Re-enter the file and execute ```:PlugInstall``` 
 
 *Note: Any plug-in regarding themes may have to use additional style commands and/or including the command ```colorscheme {name}``` the following line after ```call plug#end()```.*
 
-*Note: Refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion in coc.nvim. [(Details)](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion). The following code is provided below from the given source.*
+*Note: Refer to ```config/vim/.vimrc``` regarding an extra function added in the .vimrc in order to fix tab completion in coc.nvim.* [(Details)](https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion). The following code is provided below from the given source
 
 ```
 " use <tab> to trigger completion and navigate to the next complete item
@@ -63,7 +63,7 @@ inoremap <c-b> <Esc>:NERDTreeToggle<cr>
 nnoremap <c-b> <Esc>:NERDTreeToggle<cr>
 ```
 
-*Note: Check the ```coc-settings.json``` section and add ```"suggest.noselect": true``` to fix tab completion initially defaulting to the second entry [(Details)](https://github.com/neoclide/coc.nvim/issues/4283).*
+*Note: Check the ```coc-settings.json``` section and add ```"suggest.noselect": true``` to fix tab completion initially defaulting to the second entry.* [(Details)](https://github.com/neoclide/coc.nvim/issues/4283)
 
 *Note: List of [colorschemes](https://vimcolorschemes.com/) and [additional cs](https://github.com/rafi/awesome-vim-colorschemes).*
 
@@ -83,7 +83,7 @@ You may edit your coc-settings.json using any text editor and use the basic form
 " coc-settings
 {
 
-  "{attribute: name of command}":{toggle: true/false}
+  "{attribute: name of command}": {toggle: true/false}
 
 }
 ```
