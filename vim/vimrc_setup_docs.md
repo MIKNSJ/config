@@ -31,7 +31,7 @@ Plug '{user/Github directory}' (plug-in installation commands goes in here)
 call plug#end()
 ```
 
-For example, we will try to install coc.nvim.
+For example, we will try to install coc.nvim (*You must also download Node.js and set the correct PATH for this plug-in.*)
 
 *This is required for the upcoming sections below regarding language autocomplete.*
 
