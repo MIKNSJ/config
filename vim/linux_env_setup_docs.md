@@ -20,6 +20,39 @@ Setup Ubuntu by setting a username and password.
 
 ***
 
+# [OPTIONAL]: Updating WSL and Ubuntu
+
+Check the current WSL version by executing ```wsl --version``` in CMD or PowerShell.
+
+Check the current Ubuntu version by executing ```lsb_release -a``` in Ubuntu.
+
+Update to the latest WSL verion by executing ```wsl --update```.
+
+Update to the latest Ubuntu verion by executing the following:
+
+```
+sudo apt update        # Fetches the list of available updates
+sudo apt upgrade       # Installs some updates; does not remove packages
+sudo apt full-upgrade  # Installs updates; may also remove some packages, if needed [OPTIONAL]
+sudo apt autoremove    # Removes any old packages that are no longer needed [OPTIONAL]
+```
+
+Check if the current Ubuntu and WSL versions match by executing ```wsl -l -v```.
+
+*Note: Versions only have to match to its nearest integer.*
+
+If not, execute the following command in CMD or PowerShell: ```wsl --set-version Ubuntu-{your version goes here} 2```.
+
+If Windows does not recognize the command (not found) above, use:  ```wsl --set-version Ubuntu 2``` instead.
+
+*Note: The command will not execute, if you get prompted to install optional components for WSL through CMD/PowerShell and/or from a Windows notification.*
+
+If promoted, install the optional components for WSL in either way and rerun the same command that worked from above.
+
+Now, if you execute ```wsl -l -v```, then the versions for WSL and Ubuntu should match.
+
+***
+
 ## Install Valgrind and GDB
 
 In order to install Valgrind and GDB on to your system, exceute the following commands:
