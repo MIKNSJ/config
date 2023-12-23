@@ -1,4 +1,3 @@
-# practice
+# notes
 
-learning how to do stuff \
-C++
+test
