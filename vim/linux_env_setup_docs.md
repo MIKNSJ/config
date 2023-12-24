@@ -103,7 +103,7 @@ You can check by executing ```node --version``` in Ubuntu.
 
 ## Install C/C++
 
-*TBD*
+Execute the command ```sudo apt install build-essential```.
 
 ***
 
