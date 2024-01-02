@@ -20,8 +20,5 @@
     "workbench.colorCustomizations": {
         "editorBracketHighlight.foreground3" : "#15ff00"
     },
-    "editor.tokenColorCustomizations": {
-        "comments" : "#BBBBBB"
-    },
     "window.zoomLevel": -1
 }
