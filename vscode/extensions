@@ -23,4 +23,5 @@
 [Plug-in]: Extension Pack for Java         vscjava.vscode-java-pack
 [Plug-In]: Tester Runner for Java          vscjava.vscode-java-test
 [Plug-In]: Maven for Java                  vscjava.vscode-maven
+[Plug-In]: Vim Emulation                   vscodevim.vim@1.27.2
 [Theme]: One Dark Pro                      zhuangtongfa.material-theme
