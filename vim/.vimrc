@@ -7,6 +7,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-test/vim-test'
+Plug 'lervag/vimtex'
 
 call plug#end()
 
@@ -33,6 +34,7 @@ nnoremap <C-X> <Esc>:NERDTreeToggle<cr>
 
 set clipboard=unnamed
 set backspace=indent,eol,start
+" set encoding=utf-8
 
 set guifont=Cascadia\ Code:h14
 
