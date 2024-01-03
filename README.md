@@ -1,3 +1,3 @@
-# lab
+# notes
 
-conduct
+random stuff
