@@ -173,7 +173,7 @@ Using your plug-in manager in your ```.vimrc``` file, install vimtex by executin
 
 Open up a file in any interface of Vim.
 
-*Note: You may need to add the command ```set encoding=utf8``` to your .vimrc if prompted.*
+*Note: You may need to add the command ```set encoding=utf-8``` to your .vimrc if prompted.*
 
 In command mode, execute the command ```:CocInstall coc-vimtex```.
 
