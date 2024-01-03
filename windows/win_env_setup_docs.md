@@ -10,8 +10,10 @@ Then we can establish sub-folders for each category located in the home director
 
 ***
 
-## TBD
+## Configure LaTeX
 
-*TBD*
+Install a dedicated PDF viewer program or use a browser.
+
+Install MiKTex
 
 ***
