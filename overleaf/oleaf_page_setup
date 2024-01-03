@@ -1,5 +1,7 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc, setspace, fancyhdr, graphicx, amsmath, amsfonts, euscript, amscd, amssymb, graphicx, color, xcolor}
+\usepackage[utf8]{inputenc, setspace, fancyhdr, graphicx,
+amsmath, amsfonts, euscript, amscd, amssymb, graphicx,
+color, xcolor}
 \textheight 9in
 \textwidth 6.5in
 \voffset -1in
