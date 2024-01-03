@@ -181,6 +181,8 @@ Refer to built-in vimlatex commands [here](https://github.com/lervag/vimtex/blob
 
 *Note: You just need to execute ```\ll``` in command mode of a file which will automatically compile, show errors if necessary, and output/view the pdf version.*
 
+*Note: To change between PDF viewers add the command ```let g:vimtex_view_method = '{name_pdf_viewer_executable}'``` into your .vimrc.*
+
 Now, you should see prompt pop-ups as you type something similar to LaTeX syntax.
 
 ***
