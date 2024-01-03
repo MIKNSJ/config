@@ -179,16 +179,16 @@ Install Tex packages by executing the command ```sudo apt install texlive```.
 
 *Note: There are different TexLive versions that range in total storage size based on the number of packages that you want to install.*
 
-Package                    Archives  Disk Space
--------------------------  --------  ----------
-texlive-latex-base            59 MB      216 MB
-texlive-latex-recommended     74 MB      248 MB
-texlive-pictures              83 MB      277 MB
-texlive-fonts-recommended     83 MB      281 MB
-texlive                       98 MB      314 MB
-texlive-plain-generic         82 MB      261 MB
-texlive-latex-extra          144 MB      452 MB
-texlive-full                2804 MB     5358 MB
+Package                    Archives  Disk Space \
+-------------------------  --------  ---------- \
+texlive-latex-base            59 MB      216 MB \
+texlive-latex-recommended     74 MB      248 MB \
+texlive-pictures              83 MB      277 MB \
+texlive-fonts-recommended     83 MB      281 MB \
+texlive                       98 MB      314 MB \
+texlive-plain-generic         82 MB      261 MB \
+texlive-latex-extra          144 MB      452 MB \
+texlive-full                2804 MB     5358 MB \
 
 [Source](https://tex.stackexchange.com/questions/245982/differences-between-texlive-packages-in-linux)
 
