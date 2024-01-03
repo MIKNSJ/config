@@ -146,7 +146,7 @@ texlive-full                2804 MB     5358 MB
 
 [Source](https://tex.stackexchange.com/questions/245982/differences-between-texlive-packages-in-linux)
 
-*Note: If you want to install individual packages, execute the command ```sudo tlmgr install {package_name}```.
+*Note: If you want to install individual packages, execute the command ```sudo tlmgr install {package_name}```.*
 
 You can check the installations by executing the commands: ```zathura --version``` and ```pdflatex --version```.
 
