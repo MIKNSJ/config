@@ -162,3 +162,40 @@ Now, you should see prompt pop-ups as you type something similar to Java syntax.
 ## Setup coc.nvim for JavaScript
 
 *TBD*
+
+***
+
+## Setup coc.nvim for LaTeX
+
+Install a pdf viewer for Linux, in this example, we will use Zathura by executing the command ```sudo apt install zathura```.
+
+Using your plug-in manager in your ```.vimrc``` file, install vimtex by executing ```Plug 'lervag/vimtex'```.
+
+Open up a file in any interface of Vim.
+
+In command mode, execute the command ```:CocInstall coc-vimtex```.
+
+Install Tex packages by executing the command ```sudo apt install texlive```.
+
+*Note: There are different TexLive versions that range in total storage size based on the number of packages that you want to install.*
+
+Package                    Archives  Disk Space
+-------------------------  --------  ----------
+texlive-latex-base            59 MB      216 MB
+texlive-latex-recommended     74 MB      248 MB
+texlive-pictures              83 MB      277 MB
+texlive-fonts-recommended     83 MB      281 MB
+texlive                       98 MB      314 MB
+texlive-plain-generic         82 MB      261 MB
+texlive-latex-extra          144 MB      452 MB
+texlive-full                2804 MB     5358 MB
+
+[Source](https://tex.stackexchange.com/questions/245982/differences-between-texlive-packages-in-linux)
+
+*Note: If you want to install individual packages, execute the command ```sudo tlmgr install {package_name}```.
+
+Refer to built-in vimlatex commands [here](https://github.com/lervag/vimtex/blob/e323c55e9669c1adb205295b06ec4463bae5b637/doc/vimtex.txt#L669).
+
+*Note: You just need to execute ```\ll``` in command mode of a file which will automatically compile, show errors if necessary, and output/view the pdf version.
+
+Now, you should see prompt pop-ups as you type something similar to LaTeX syntax.
