@@ -162,3 +162,25 @@ Now, you should see prompt pop-ups as you type something similar to Java syntax.
 ## Setup coc.nvim for JavaScript
 
 *TBD*
+
+***
+
+## Setup coc.nvim for LaTeX
+
+Install LaTeX in your Windows system.
+
+Using your plug-in manager in your ```.vimrc``` file, install vimtex by executing ```Plug 'lervag/vimtex'```.
+
+Open up a file in any interface of Vim.
+
+*Note: You may need to add the command ```set encoding=utf8``` to your .vimrc if prompted.*
+
+In command mode, execute the command ```:CocInstall coc-vimtex```.
+
+Refer to built-in vimlatex commands [here](https://github.com/lervag/vimtex/blob/e323c55e9669c1adb205295b06ec4463bae5b637/doc/vimtex.txt#L669).
+
+*Note: You just need to execute ```\ll``` in command mode of a file which will automatically compile, show errors if necessary, and output/view the pdf version.*
+
+Now, you should see prompt pop-ups as you type something similar to LaTeX syntax.
+
+***
