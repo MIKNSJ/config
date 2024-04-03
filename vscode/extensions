@@ -9,6 +9,7 @@
 [Plug-In]: Jupyter Renderers               ms-toolsai.jupyter-renderers
 [Plug-In]: Jupyter Cell Tags               ms-toolsai.vscode-jupyter-cell-tags
 [Plug-In]: Jupyter Slideshow               ms-toolsai.vscode-jupyter-slideshow
+[Plug-In]: Live Preview                    ms-vscode.live-server@0.4.13
 [Plug-In]: WSL                             ms-vscode-remote.remote-wsl
 [Language]: CMake Tools                    ms-vscode.cmake-tools@1.16.32
 [Language]: C/C++ Tools                    ms-vscode.cpptools
