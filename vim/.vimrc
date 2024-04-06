@@ -14,6 +14,7 @@ call plug#end()
 
 filetype on
 syntax on
+" colorscheme evening
 " colorscheme onedark
 colorscheme gruvbox
 " set bg=dark
