@@ -8,12 +8,17 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-test/vim-test'
 Plug 'lervag/vimtex'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
 filetype on
 syntax on
-colorscheme onedark
+" colorscheme onedark
+colorscheme gruvbox
+" set bg=dark
+" Set dark mode contrast to soft
+" let g:gruvbox_contrast_dark = 'soft'
 set showmatch matchtime=20
 
 " use <tab> to trigger completion and navigate to the next complete item
