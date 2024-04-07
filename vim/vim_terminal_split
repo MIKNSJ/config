@@ -1,0 +1,12 @@
+:XXX[YYY] " XXX denotes the abbreviation of the full string XXXYYY in which both can execute the same command.
+:term[inal] {optional: powershell or path} " Opens the terminal of a user's choice
+:vert[ical] rightbelow term  " The terminal opens on the right side of the screen.
+On project file, :vert resize 83 " The project file window expands horizontally where the vertical-dashed line represents the 80 character ruler.
+Or :vert resize 84 " The project file window expands horizontally where the column-line is used as the 80 character ruler instead.
+Otherwise, on terminal, :vert resize 60 " The terminal window expands horizontally where the vertical-dashed line represents the 80 character ruler.
+Or :vert resize 59 " The terminal window expands horizontally where the column-line is used as the 80 character ruler instead.
+
+tree " View the file hierarchy in the terminal.
+<CTRL + W> + <N> " In Vim, return to command line and freeze terminal + scrolling through terminal enabled.
+:find " In Vim, to find and open a file, use kleen-star (*) and tab-scrolling to find/open similar file extensions.
+:edit . "In Vim, to view the file hierarchy, same movement keys to navigate and <Enter> to go/open folders and/or files.
