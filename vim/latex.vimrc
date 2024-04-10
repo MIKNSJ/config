@@ -1,3 +1,18 @@
+call plug#begin()
+    Plug 'lervag/vimtex'
+    Plug 'preservim/nerdtree'
+call plug#end()
+
+filetype plugin indent on
+
+
+
+" let g:vimtex_view_general_viewer = 'SumatraPDF.exe'
+let g:vimtex_view_method = 'sioyek'
+let g:vimtex_view_sioyek_exe = 'sioyek.exe'
+
+
+
 colorscheme elflord
 set guifont=Calibri:h14
 
@@ -32,7 +47,6 @@ set ruler
 set cursorline
 set cursorcolumn
 set colorcolumn=80
-set textwidth=80
 
 " set guicursor=i:block                 " Enables vertical block for insert mode
 let &t_SI = "\e[6 q"                    " Steady vertical bar in insert mode (Values: 1-6, Selected: 6)
