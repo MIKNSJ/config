@@ -1,0 +1,27 @@
+macOS
+set background=dark
+colorscheme default
+
+Otherwise, the terminal can still auto-detect through its settings.
+
+
+Windows
+Designed for C/C++ Support
+Include the following lines to your .vimrc:
+
+highlight Normal ctermbg=black ctermfg=white guibg=#202020 guifg=white
+highlight Comment ctermfg=cyan guifg=cyan
+highlight Statement ctermfg=yellow guifg=yellow
+highlight Type ctermfg=green guifg=green
+highlight Include ctermfg=cyan guifg=cyan
+highlight Constant ctermfg=magenta guifg=magenta
+highlight LineNr ctermfg=yellow guifg=yellow
+highlight CursorLineNr ctermfg=yellow guifg=yellow
+highlight EndOfBuffer ctermfg=lightmagenta guifg=lightmagenta
+highlight SpecialChar ctermfg=lightred guifg=lightred
+
+colorscheme is default, but does not need to be included
+cterm = Windows Terminal
+gui = gVim (GUI)
+
+Note: This is roughly an estimate of the colors on macOS.
