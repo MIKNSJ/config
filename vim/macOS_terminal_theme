@@ -5,11 +5,13 @@ colorscheme default
 Otherwise, the terminal can still auto-detect through its settings.
 
 
+
 Windows
 Designed for C/C++ Support
 Include the following lines to your .vimrc:
 
-highlight Normal ctermbg=black ctermfg=white guibg=#202020 guifg=white
+set t_Co = 256                                                                " You may need this depending on your terminal. For CMD yes, Ubuntu no.
+highlight Normal ctermbg=235 ctermfg=white guibg=#202020 guifg=white          " 235 = #262626
 highlight Comment ctermfg=cyan guifg=cyan
 highlight Statement ctermfg=yellow guifg=yellow
 highlight Type ctermfg=green guifg=green
@@ -19,6 +21,7 @@ highlight LineNr ctermfg=yellow guifg=yellow
 highlight CursorLineNr ctermfg=yellow guifg=yellow
 highlight EndOfBuffer ctermfg=lightmagenta guifg=lightmagenta
 highlight SpecialChar ctermfg=lightred guifg=lightred
+highlight ColorColumn ctermbg=240 guibg=#505050                               " 240 = #585858
 
 colorscheme is default, but does not need to be included
 cterm = Windows Terminal
