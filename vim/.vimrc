@@ -12,6 +12,14 @@ set number                               " enables line numbers
 " set relativenumber
 nnoremap <C-Z> :set relativenumber!<CR>  " keybind toggle for relative number in normal mode
 
+inoremap ( ()<Left>                      " bracket completion and move cursor inside
+inoremap { {}<Left>
+inoremap {<CR> {<CR>}<Left>
+inoremap [ []<Left>
+inoremap < <><Left>
+inoremap ' ''<Left>
+inoremap " ""<Left>
+
 set hlsearch                             " Highlight search results
 set incsearch                            " Incremental search
 set ignorecase                           " Case-insensitive search
