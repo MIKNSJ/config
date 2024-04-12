@@ -1,6 +1,6 @@
 macOS
-set background=dark
-colorscheme default
+set background=dark                                                          " optional, terminal settings can apply by default
+colorscheme default                                                          " optional, not having this line means this will auto-apply
 
 Otherwise, the terminal can still auto-detect through its settings.
 
@@ -13,18 +13,19 @@ Include the following lines to your .vimrc:
 set t_Co = 256                                                                " You may need this depending on your terminal. For CMD yes, Ubuntu no.
 highlight Normal ctermbg=235 ctermfg=white guibg=#202020 guifg=white          " 235 = #262626
 highlight Comment ctermfg=cyan guifg=cyan
-highlight Statement ctermfg=yellow guifg=yellow
+highlight Statement ctermfg=226 guifg=#FFFF00                                 " 226 = #FFFF00, represents a brighter "yellow"
 highlight Type ctermfg=green guifg=green
 highlight Include ctermfg=cyan guifg=cyan
-highlight Constant ctermfg=magenta guifg=magenta
-highlight LineNr ctermfg=yellow guifg=yellow
-highlight CursorLineNr ctermfg=yellow guifg=yellow
-highlight EndOfBuffer ctermfg=lightmagenta guifg=lightmagenta
+highlight Constant ctermfg=magenta guifg=magenta                              " Magenta = Pink
+highlight LineNr ctermfg=226 guifg=#FFFF00                                    " 226 = #FFFF00, represents a brighter "yellow"
+highlight CursorLineNr ctermfg=226 guifg=#FFFF00                              " 226 = #FFFF00, represents a brighter "yellow"
+highlight EndOfBuffer ctermfg=lightmagenta guifg=lightmagenta                 " Light Magenta = Light Pink
 highlight SpecialChar ctermfg=lightred guifg=lightred
 highlight ColorColumn ctermbg=240 guibg=#505050                               " 240 = #585858
 
-colorscheme is default, but does not need to be included
-cterm = Windows Terminal
-gui = gVim (GUI)
+colorscheme default                                                           " optional, not having this line means this will auto-apply
 
-Note: This is roughly an estimate of the colors on macOS.
+cterm = Windows Terminal, bg = background, fg= foreground
+gui = gVim (GUI), bg = background, fg= foreground
+
+Note: This is roughly an estimate of the colors on macOS converted to other OS like Windows.
