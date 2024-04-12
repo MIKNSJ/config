@@ -1,10 +1,10 @@
 # Merging Git Repository Documentation
 
-The following documentation goes over how to merge repositories.
+The following documentation goes over how to merge repositories and branches.
 
 ***
 
-## Sources
+## Merging Repositories
 
 You may refer to the guides shown below:
 
@@ -28,13 +28,15 @@ versions of each repository.
 We will consider an example using three repositories and denote its name as
 follows:
 
-repo_1, existing repository
+repo_1 = an existing repository
 
-repo_2, existing repository
+repo_2 = another existing repository different from repo_1
 
-repo_3, new and empty repository
+repo_3 = a new and empty repository
 
 We want to accomplish repo_1 + repo_2 -> repo_3.
+
+In other words, repo_3 = repo_1 + repo_2.
 
 ***
 
@@ -44,11 +46,10 @@ We want to clone a repo using HTTPS, SSH, or GitHub CLI. For this
 example, consider using HTTPS in the format: 
 https://github.com/{user-name}/{repo_name}.git and open the repository in an
 external text editor like VSCode. Recall that cloning can be
-done using the command ```git clone``` or through Github Desktop. You should
-apply this step for the empty repository ONLY unless you prefer doing repo_1 ->
-repo_2 -> repo_1 or repo_2 instead of the expression defined above.
+done using the command ```git clone``` or through Github Desktop. We will apply this step for the empty repository (repo_3) unless you prefer doing repo_1 ->
+repo_2 or repo_2 -> repo_1 instead of the path defined above.
 
-Execute the following commands in your terminal:
+Execute the following commands in your terminal (repo_3) or the repo that will contain all the sub-repo contents (the repo that is after ->):
 
 ```
 git remote add -f {repo_label} https://github.com/{username}/{repo_name}.git
@@ -69,4 +70,29 @@ git push origin main
 *Note: Other existing README.md contents will overlap, so the formatting may be incorrect.*
 
 Now you have merged either repo_1 or repo_2 -> repo_3 and you may repeat
-this process until every other repository gets merged to repo_3.
+this process again for the remaining repository, where repo_3 will have both contents of repo_1 and repo_2.
+
+***
+
+## Merging Branches
+
+### Merging feature-branch to a master
+
+```
+git checkout master
+git pull origin master
+git merge --squash feature-branch
+git commit -m "Merge feature-branch into master"
+git push origin master
+git branch -d feature-branch
+git push origin --delete feature-branch
+```
+
+### Merging master to update a feature-branch
+
+```
+git checkout master
+git pull master
+git checkout <feature-branch>
+git merge master
+```
