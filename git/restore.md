@@ -10,6 +10,10 @@ This documentation goes over restoring a repository to a certain state.
 
 [Docs](https://git-scm.com/docs/git-reset)
 
+```
+git revert <commit_hash> ... <other-commit_hashes>
+```
+
 ***
 
 ## ```git reset```
@@ -65,4 +69,14 @@ git fetch
 git checkout
 git push --force
 ```
+
 ***
+
+## Change the name of HEAD branch
+
+```
+git branch -m <old-branch> <new-branch>
+git fetch origin
+git branch -u origin/<new-branch> <new-branch>
+git remote set-head origin -a
+```

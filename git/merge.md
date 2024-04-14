@@ -76,7 +76,7 @@ this process again for the remaining repository, where repo_3 will have both con
 
 ## Merging Branches
 
-### Merging feature-branch to a master
+### Merging feature-branch to update master without PR
 
 ```
 git checkout master
@@ -88,6 +88,20 @@ git branch -d feature-branch
 git push origin --delete feature-branch
 ```
 
+***
+
+### Merging feature-branch to revert master
+
+```
+git checkout master
+git reset --hard view-branch
+git push origin master --force
+```
+
+Or you can use the first method above which retains commit history.
+
+***
+
 ### Merging master to update a feature-branch
 
 ```
@@ -96,3 +110,56 @@ git pull master
 git checkout <feature-branch>
 git merge master
 ```
+
+***
+
+### Merging some files/folders to another repo
+
+To move a folder from one Git repository to another while preserving its commit history, you can use the following steps:
+
+Clone the Source Repository: Begin by cloning the source repository that contains the folder you want to move.
+
+```git clone <source_repository_url>```
+
+Navigate to the Source Repository: Go into the directory of the cloned repository.
+
+```cd <source_repository_name>```
+
+Filter the Folder: Use git filter-branch or git filter-repo to filter out everything except the folder you want to move. This operation will rewrite the repository's history.
+
+For git filter-branch:
+
+```git filter-branch --subdirectory-filter <folder_path> -- --all```
+
+For git filter-repo:
+
+```git filter-repo --subdirectory-filter <folder_path>```
+
+Create a Patch: Generate a patch file for the folder. This step isn't necessary but can be helpful for review purposes.
+
+```git format-patch -o /path/to/patch origin/master -- <folder_path>```
+
+Create a New Repository: Now, create a new repository where you want to move the folder.
+```
+mkdir <new_repository_name>
+cd <new_repository_name>
+git init
+```
+
+Apply the Patch: Move the patch file created in step 4 into the new repository and apply it.
+
+```
+git am /path/to/patch
+```
+
+Add Remote and Push: If you want to keep the new repository synchronized with the source repository, you can add the source repository as a remote and push changes.
+
+```
+git remote add <source_remote_name> <source_repository_url>
+git pull <source_remote_name> master
+git push origin master
+```
+
+Clean Up: After ensuring everything is correct, you can delete the old repository or remove the filtered files (if you don't want them anymore).
+
+ALTERNATIVE METHOD: Clone and merge the entire repository and delete the files you do not need. Of course, the commits would have to be deleted alongside as well using rebase.
