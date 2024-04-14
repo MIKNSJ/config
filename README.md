@@ -1,3 +1,2 @@
-# lab
-
-random stuff
+<<<<<<< HEAD
+# notes
