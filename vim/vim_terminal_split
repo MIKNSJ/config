@@ -7,6 +7,7 @@ Otherwise, on terminal, :vert resize 60 " The terminal window expands horizontal
 Or :vert resize 59 " The terminal window expands horizontally where the column-line is used as the 80 character ruler instead.
 
 tree " View the file hierarchy in the terminal.
-<CTRL + W> + <N> " In Vim, return to command line and freeze terminal + scrolling through terminal enabled.
+<CTRL + W> + <N> " In Vim and on terminal window, return to command line and freeze terminal + scrolling through terminal enabled.
+<I>: insert mode  In Vim and on terminal window, return to command line and unfreeze terminal.
 :find " In Vim, to find and open a file, use kleen-star (*) and tab-scrolling to find/open similar file extensions.
 :edit . "In Vim, to view the file hierarchy, same movement keys to navigate and <Enter> to go/open folders and/or files.
