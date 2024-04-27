@@ -69,8 +69,8 @@ set softtabstop=4
 set tabstop=4
 
 set ruler
-set cursorline
-set cursorcolumn
+" set cursorline
+" set cursorcolumn
 set colorcolumn=80
 set textwidth=80
 

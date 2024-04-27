@@ -1,5 +1,5 @@
-colorscheme elflord
-set guifont=Calibri:h14
+colorscheme elflord                      " If I had to choose a default VIM theme.
+set guifont=Consolas:h12                 " If I had to choose a default font and size for Windows.
 
 syntax on
 filetype on
@@ -37,10 +37,10 @@ set softtabstop=4
 set tabstop=4
 
 set ruler
-set cursorline
-set cursorcolumn
-set colorcolumn=80
-set textwidth=80
+" set cursorline                         " highlights current line (row)
+" set cursorcolumn                       " highlights current column
+set colorcolumn=80                       " highlights character line limit (default color: red)
+set textwidth=80                         " wraps text only for windowed mode
 
 " set guicursor=i:block                 " Enables vertical block for insert mode
 let &t_SI = "\e[6 q"                    " Steady vertical bar in insert mode (Values: 1-6, Selected: 6)
