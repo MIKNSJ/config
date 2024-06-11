@@ -1,11 +1,7 @@
 # config
 
-vim
-
-vscode
-
-dev c++
-
-latex *tbd*
-
-***
+- Vim
+- VS Code
+- Linux (WSL-Ubuntu)
+- Windows
+- Git
