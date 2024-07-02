@@ -1,3 +1,9 @@
+call plug#begin()
+
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
 colorscheme elflord                      " If I had to choose a default VIM theme.
 set guifont=Consolas:h12                 " If I had to choose a default font and size for Windows.
 
@@ -12,7 +18,7 @@ set number                               " enables line numbers
 " set relativenumber
 nnoremap <C-Z> :set relativenumber!<CR>  " keybind toggle for relative number in normal mode
 
-inoremap ( ()<Left>                      " bracket completion and move cursor inside
+inoremap ( ()<Left>                      
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Left>
 inoremap [ []<Left>

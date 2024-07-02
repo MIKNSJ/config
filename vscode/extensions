@@ -1,7 +1,5 @@
-[Theme]: Andromeda                         EliverLara.andromeda
 [Plug-In]: Code Runner                     formulahendry.code-runner
 [Language]: LaTeX Workshop                 James-Yu.latex-workshop
-[Theme]: Wild West                         MaheshGaddhe00.wildwest
 [Language]: Python                         ms-python.python
 [Language]: Pylance                        ms-python.vscode-pylance
 [Plug-In]: Jupyter                         ms-toolsai.jupyter
@@ -16,8 +14,6 @@
 [Language]: C/C++ Extension Pack           ms-vscode.cpptools-extension-pack@1.3.0
 [Language]: C/C++ Themes                   ms-vscode.cpptools-themes@2.0.0
 [Language]: Language Support for Java(TM)  redhat.java
-[Theme]: Everforest                        sainnhe.everforest
-[Theme]: Gruvbox Material                  sainnhe.gruvbox-material
 [Language]: CMake                          twxs.cmake@0.0.17
 [Plug-In]: IntelliCode Api Usage Examples  VisualStudioExptTeam.intellicode-api-usage-examples
 [Plug-In]: IntelliCode                     VisualStudioExptTeam.vscodeintellicode
@@ -27,4 +23,3 @@
 [Plug-In]: Tester Runner for Java          vscjava.vscode-java-test
 [Plug-In]: Maven for Java                  vscjava.vscode-maven
 [Plug-In]: Vim Emulation                   vscodevim.vim@1.27.2
-[Theme]: One Dark Pro                      zhuangtongfa.material-theme
