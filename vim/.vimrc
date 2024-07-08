@@ -18,7 +18,7 @@ set number                               " enables line numbers
 " set relativenumber
 nnoremap <C-Z> :set relativenumber!<CR>  " keybind toggle for relative number in normal mode
 
-inoremap ( ()<Left>                      
+inoremap ( ()<Left>  
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Left>
 inoremap [ []<Left>
