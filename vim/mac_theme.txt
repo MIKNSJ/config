@@ -22,6 +22,7 @@ highlight CursorLineNr ctermfg=226 guifg=#FFFF00                              " 
 highlight EndOfBuffer ctermfg=lightmagenta guifg=lightmagenta                 " Light Magenta = Light Pink
 highlight SpecialChar ctermfg=lightred guifg=lightred
 highlight ColorColumn ctermbg=240 guibg=#505050                               " 240 = #585858
+highlight Search ctermbg=226 ctermfg=0 guibg=#FFFF00 guifg=#000000
 
 colorscheme default                                                           " optional, not having this line means this will auto-apply
 
