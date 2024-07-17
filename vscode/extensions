@@ -1,4 +1,3 @@
-[Plug-In]: Code Runner                     formulahendry.code-runner
 [Language]: LaTeX Workshop                 James-Yu.latex-workshop
 [Language]: Python                         ms-python.python
 [Language]: Pylance                        ms-python.vscode-pylance
@@ -13,6 +12,8 @@
 [Language]: C/C++ Tools                    ms-vscode.cpptools
 [Language]: C/C++ Extension Pack           ms-vscode.cpptools-extension-pack@1.3.0
 [Language]: C/C++ Themes                   ms-vscode.cpptools-themes@2.0.0
+[Plug-In]: Microsoft Live Server           ms-vscode.live-server@0.4.14
+[Theme]: Material Icon Theme               pkief.material-icon-theme@5.6.0
 [Language]: Language Support for Java(TM)  redhat.java
 [Language]: CMake                          twxs.cmake@0.0.17
 [Plug-In]: IntelliCode Api Usage Examples  VisualStudioExptTeam.intellicode-api-usage-examples
