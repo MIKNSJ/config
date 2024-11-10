@@ -1,4 +1,6 @@
+[Plug-In]: Tailwind CSS IntelliSense       bradlc.vscode-tailwindcss
 [Language]: LaTeX Workshop                 James-Yu.latex-workshop
+[Plug-In]: Python Debugger                 ms-python.debugpy
 [Language]: Python                         ms-python.python
 [Language]: Pylance                        ms-python.vscode-pylance
 [Plug-In]: Jupyter                         ms-toolsai.jupyter
@@ -18,6 +20,7 @@
 [Language]: CMake                          twxs.cmake@0.0.17
 [Plug-In]: IntelliCode Api Usage Examples  VisualStudioExptTeam.intellicode-api-usage-examples
 [Plug-In]: IntelliCode                     VisualStudioExptTeam.vscodeintellicode
+[Plug-In]: Gradle for Java                 vscjava.vscode-gradle
 [Plug-In]: Debugger for Java               vscjava.vscode-java-debug
 [Plug-In]: Project Manager for Java        vscjava.vscode-java-dependency
 [Plug-in]: Extension Pack for Java         vscjava.vscode-java-pack
