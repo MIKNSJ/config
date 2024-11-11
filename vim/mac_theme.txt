@@ -10,7 +10,7 @@ Windows
 Designed for C/C++ Support
 Include the following lines to your .vimrc:
 
-set t_Co = 256                                                                " You may need this depending on your terminal. For CMD yes, Ubuntu no.
+set t_Co = 256 or set termguicolors                                           " You may need this depending on your terminal. For CMD yes, Ubuntu no.
 highlight Normal ctermbg=235 ctermfg=white guibg=#202020 guifg=white          " 235 = #262626
 highlight Comment ctermfg=cyan guifg=cyan
 highlight Statement ctermfg=226 guifg=#FFFF00                                 " 226 = #FFFF00, represents a brighter "yellow"
