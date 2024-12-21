@@ -1,6 +1,8 @@
 call plug#begin()
 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -17,6 +19,12 @@ set mouse=a                              " enables mouse scroll
 set number                               " enables line numbers
 " set relativenumber
 nnoremap <C-Z> :set relativenumber!<CR>  " keybind toggle for relative number in normal mode
+
+" [coc-nvim]: Use tab for trigger completion with characters ahead and navigate
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
 
 inoremap ( ()<Left>  
 inoremap { {}<Left>
