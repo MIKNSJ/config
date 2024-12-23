@@ -21,10 +21,15 @@ set number                               " enables line numbers
 nnoremap <C-Z> :set relativenumber!<CR>  " keybind toggle for relative number in normal mode
 
 " [coc-nvim]: Use tab for trigger completion with characters ahead and navigate
-inoremap <silent><expr> <TAB>
-      \ coc#pum#visible() ? coc#pum#next(1) :
-      \ CheckBackspace() ? "\<Tab>" :
-      \ coc#refresh()
+function! CheckBackspace() abort
+    let col = col('.') - 1
+    return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+    \ coc#pum#visible() ? coc#pum#next(1) :
+    \ CheckBackspace() ? "\<Tab>" :
+    \ coc#refresh()
 
 inoremap ( ()<Left>  
 inoremap { {}<Left>
