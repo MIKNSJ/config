@@ -31,7 +31,7 @@ inoremap <silent><expr> <Tab>
     \ CheckBackspace() ? "\<Tab>" :
     \ coc#refresh()
 
-inoremap ( ()<Left>  
+inoremap ( ()<Left>
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Left>
 inoremap [ []<Left>
